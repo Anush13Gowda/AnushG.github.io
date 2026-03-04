@@ -14,7 +14,7 @@
 
 <section class="home">
 
-<h1>Anush G</h1>
+<h1 class="typing">Anush G</h1>
 
 <p>
 AI & Data Science Engineer passionate about building intelligent systems,
@@ -24,7 +24,7 @@ machine learning models and automation tools.
 <div class="buttons">
 
 <button class="contact"
-onclick="window.location.href='mailto:anushg659@gmail.com'">
+onclick="showContact()">
 Contact Me
 </button>
 
@@ -45,7 +45,7 @@ View Resume
 <h2>About</h2>
 
 <p>
-B.E Artificial Intelligence and Data Science student with strong interest
+B.E in Artificial Intelligence and Data Science with strong interest
 in Machine Learning, NLP and intelligent systems.
 </p>
 
@@ -85,6 +85,11 @@ in Machine Learning, NLP and intelligent systems.
 <p>Numpy</p>
 </div>
 
+<div class="skill">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+<p>Git</p>
+</div>
+
 </div>
 
 </section>
@@ -96,25 +101,17 @@ in Machine Learning, NLP and intelligent systems.
 
 <h2>Projects</h2>
 
-<div class="card">
-Voice Assistant – AI based voice command assistant
-</div>
+<div class="card">Voice Assistant</div>
 
-<div class="card">
-Adaptive Weed Detection AGBOT using CNN
-</div>
+<div class="card">Adaptive Weed Detection AGBOT</div>
 
-<div class="card">
-Personal Finance Bot for expense management
-</div>
+<div class="card">Personal Finance Bot</div>
 
-<div class="card">
-Text Summarizer using NLP
-</div>
+<div class="card">Text Summarizer (NLP)</div>
 
-<div class="card">
-Language Identifier using Machine Learning
-</div>
+<div class="card">Language Identifier</div>
+
+<div class="card">Image Resizer Tool</div>
 
 </section>
 
@@ -125,11 +122,21 @@ Language Identifier using Machine Learning
 
 <h2>Certificates</h2>
 
-<p>Python for Beginners – Simplilearn</p>
+<div class="buttons">
 
-<p>Machine Learning with R – Simplilearn</p>
+<button onclick="window.open('certificate1.pdf')">
+Python for Beginners
+</button>
 
-<p>Data Visualization – Infosys Springboard</p>
+<button onclick="window.open('certificate2.pdf')">
+Machine Learning with R
+</button>
+
+<button onclick="window.open('certificate3.pdf')">
+Data Visualization
+</button>
+
+</div>
 
 </section>
 
@@ -140,17 +147,33 @@ Language Identifier using Machine Learning
 
 <h2>Contact</h2>
 
-<p>Email: anushg659@gmail.com</p>
+<p>📞 7204040951</p>
+
+<p>📧 anushg659@gmail.com</p>
 
 <p>
 <a href="https://github.com/Anush13Gowda">GitHub</a>
 </p>
 
 <p>
-<a href="https://www.linkedin.com/in/anushg13">LinkedIn</a>
+<a href="https://www.linkedin.com">LinkedIn</a>
 </p>
 
 </section>
+
+
+<script>
+
+function showContact(){
+
+alert(
+"Phone: 7204040951\nEmail: anushg659@gmail.com"
+)
+
+}
+
+</script>
+
 
 </body>
 </html>
