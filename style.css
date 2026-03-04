@@ -1,14 +1,22 @@
-
 body{
-margin:0;
 font-family:Arial;
 background:#071a33;
 color:white;
 text-align:center;
+margin:0;
 }
 
-.container{
+section{
 padding:80px 20px;
+}
+
+h1{
+font-size:50px;
+color:#7aa2ff;
+}
+
+.buttons{
+margin-top:30px;
 }
 
 button{
@@ -18,13 +26,17 @@ border:none;
 font-size:16px;
 margin:10px;
 cursor:pointer;
-transition: all 0.3s ease;
+transition:0.3s;
+}
+
+button:hover{
+transform:translateY(-5px);
+box-shadow:0px 0px 20px #6c8cff;
 }
 
 .contact{
 background:#6c8cff;
 color:white;
-box-shadow:0px 0px 15px #6c8cff;
 }
 
 .resume{
@@ -33,9 +45,27 @@ border:2px solid #6c8cff;
 color:white;
 }
 
-button:hover{
-transform: translateY(-5px);
-box-shadow:0px 0px 25px #6c8cff;
+.skills{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.skill{
+background:#10284a;
+padding:20px;
+border-radius:15px;
+width:120px;
+transition:0.3s;
+}
+
+.skill:hover{
+transform:scale(1.1);
+}
+
+.skill img{
+width:60px;
 }
 
 .card{
@@ -44,9 +74,10 @@ padding:30px;
 margin:20px auto;
 max-width:700px;
 border-radius:15px;
-transition: all 0.4s ease;
+transition:0.4s;
 }
 
 .card:hover{
-transform: translateY(-10px);
+transform:translateY(-10px);
+box-shadow:0px 0px 20px rgba(108,140,255,0.5);
 }
