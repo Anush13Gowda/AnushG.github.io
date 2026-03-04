@@ -1,1 +1,52 @@
 
+body{
+margin:0;
+font-family:Arial;
+background:#071a33;
+color:white;
+text-align:center;
+}
+
+.container{
+padding:80px 20px;
+}
+
+button{
+padding:15px 30px;
+border-radius:30px;
+border:none;
+font-size:16px;
+margin:10px;
+cursor:pointer;
+transition: all 0.3s ease;
+}
+
+.contact{
+background:#6c8cff;
+color:white;
+box-shadow:0px 0px 15px #6c8cff;
+}
+
+.resume{
+background:transparent;
+border:2px solid #6c8cff;
+color:white;
+}
+
+button:hover{
+transform: translateY(-5px);
+box-shadow:0px 0px 25px #6c8cff;
+}
+
+.card{
+background:#10284a;
+padding:30px;
+margin:20px auto;
+max-width:700px;
+border-radius:15px;
+transition: all 0.4s ease;
+}
+
+.card:hover{
+transform: translateY(-10px);
+}
