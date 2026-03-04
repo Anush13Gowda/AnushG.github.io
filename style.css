@@ -15,6 +15,18 @@ font-size:50px;
 color:#7aa2ff;
 }
 
+.typing{
+animation: typing 3s steps(20);
+overflow:hidden;
+white-space:nowrap;
+border-right:3px solid #7aa2ff;
+}
+
+@keyframes typing{
+from{width:0}
+to{width:100%}
+}
+
 .buttons{
 margin-top:30px;
 }
