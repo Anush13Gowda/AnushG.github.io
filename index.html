@@ -1,34 +1,71 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Anush G Portfolio</title>
 
 <style>
 
 body{
-font-family: Arial;
-background:#0f172a;
+margin:0;
+font-family:Arial;
+background:#071a33;
 color:white;
 text-align:center;
-margin:0;
 }
 
 .container{
-padding:60px;
+padding:80px 20px;
 }
 
 h1{
-color:#38bdf8;
+font-size:50px;
+color:#7aa2ff;
 }
 
-.project{
-margin:15px;
+p{
+max-width:700px;
+margin:auto;
+line-height:1.6;
 }
 
-a{
-color:#22c55e;
-text-decoration:none;
+.buttons{
+margin-top:30px;
+}
+
+button{
+padding:15px 30px;
+border-radius:30px;
+border:none;
+font-size:16px;
+margin:10px;
+cursor:pointer;
+}
+
+.contact{
+background:#6c8cff;
+color:white;
+box-shadow:0px 0px 15px #6c8cff;
+}
+
+.resume{
+background:transparent;
+border:2px solid #6c8cff;
+color:white;
+}
+
+section{
+margin-top:100px;
+}
+
+.card{
+background:#10284a;
+padding:30px;
+margin:20px auto;
+max-width:700px;
+border-radius:15px;
 }
 
 </style>
@@ -40,42 +77,48 @@ text-decoration:none;
 <div class="container">
 
 <h1>Anush G</h1>
-<h3>AI & Data Science Engineer</h3>
-
-<p>Python | Machine Learning | NLP | Power BI</p>
-
-<h2>About Me</h2>
 
 <p>
-AI and Data Science student passionate about building intelligent systems,
+AI & Data Science Engineer passionate about building intelligent systems,
 machine learning models and automation tools.
 </p>
 
-<h2>Projects</h2>
+<div class="buttons">
 
-<div class="project">Voice Assistant</div>
-<div class="project">AGBOT Weed Detection Robot</div>
-<div class="project">Personal Finance Bot</div>
-<div class="project">Text Summarizer (NLP)</div>
-<div class="project">Language Identifier</div>
+<button class="contact"
+onclick="window.location.href='mailto:anushg659@gmail.com'">
+Contact Me
+</button>
 
-<h2>Skills</h2>
-
-<p>Python | HTML | CSS | Power BI | Excel | DSA</p>
-
-<h2>Contact</h2>
-
-<p>Email: anushg659@gmail.com</p>
-
-<p>
-<a href="https://github.com/Anush13Gowda">GitHub</a>
-</p>
-
-<p>
-<a href="https://www.linkedin.com/in/anushg13">LinkedIn</a>
-</p>
+<button class="resume"
+onclick="window.open('resume.pdf')">
+View Resume
+</button>
 
 </div>
+
+</div>
+
+<section>
+
+<h2>ABOUT</h2>
+
+<div class="card">
+<h3>Frontend Developer</h3>
+<p>I build responsive and optimized websites using modern web technologies.</p>
+</div>
+
+<div class="card">
+<h3>Backend Developer</h3>
+<p>Experience building intelligent systems and automation tools using Python.</p>
+</div>
+
+<div class="card">
+<h3>AI & Machine Learning</h3>
+<p>Worked on NLP, language detection, finance bots and AI assistants.</p>
+</div>
+
+</section>
 
 </body>
 </html>
